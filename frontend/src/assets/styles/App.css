@@ -1,0 +1,99 @@
+body {
+    font-family: 'Courier New', Courier, monospace, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: black;
+    color: whitesmoke;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .buttons {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    padding: 8px 12px;
+    margin-right: 5px;
+    cursor: pointer;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  table,
+  th,
+  td {
+    border: 1px solid #4caf50;
+  }
+  
+  th,
+  td {
+    padding: 8px;
+    text-align: center;
+  }
+  
+  label {
+    display: inline-block;
+    width: 120px;
+  }
+  
+  input[type='text'],
+  input[type='number'] {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #4caf50;
+    background-color: #4caf50;
+    border-radius: 0px;
+    color: whitesmoke;
+  }
+  
+  input[type='number'] {
+    -moz-appearance: textfield;
+    appearance: textfield;
+  }
+  
+  input:focus {
+    color: whitesmoke;
+    outline: whitesmoke solid 2px;
+  }
+  
+  button[type='submit'] {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  button[type='submit']:hover {
+    background-color: #45a049;
+  }
+  
+  .form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+  }
+  
+  .class-avg {
+    text-align: center;
+  }
+  
