@@ -1,4 +1,3 @@
-
 ---
 
 # Visagan's Student Grading System
@@ -165,9 +164,9 @@ Open your browser and navigate to `http://localhost:5173` to see the application
 
 ## Screenshots
 
-![Add Student Form](screenshots/add-student-form.png)
-![Student Table](screenshots/student-table.png)
-![Edit Student Form](screenshots/edit-student-form.png)
+![Add Student Form](./frontend/screenshots/add-student-form.png)
+![Student Table](./frontend/screenshots/student-table.png)
+![Edit Student Form](./frontend/screenshots/edit-student-form.png)
 
 ## Contact
 
